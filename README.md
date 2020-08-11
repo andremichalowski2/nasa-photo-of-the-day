@@ -42,21 +42,22 @@ https://github.com/andremichalowski2/nasa-photo-of-the-day/pull/1#issue-46561710
 
 ### Task 2: MVP
 
-- [] Planning
-  - [] File Structure
-    - () Card Container
-    - () Card
-- [] Fetching Data (I,C,(FSU(A:GTC)R)E)
-  - [] Imports
+- [x] Planning
+  - [x] File Structure
+    - (x) Card Container
+    - (x) Card
+- [x] Fetching Data (I,C,(FSU(A:GTC)R)E)
+  - [x] Imports
     - import React and useState/useEffect
     - import axios
     - import components
-  - [] Component (Main)
+  - [x] Component (Main)
     - function statement
     - state
     - axios
       - useEffect
       - get, then, catch
+        - dependency array
     - return
     - export
   - [] Alt Components
