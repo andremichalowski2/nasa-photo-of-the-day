@@ -10,9 +10,9 @@ function ContainerEarth() {
         axios
             .get('https://api.nasa.gov/planetary/apod?api_key=dUFMqfbga9SRJHZ6awhed0VzvUbJ7NZ3o2izmDyR')
             .then(response => {
-                console.log(response)
+                // console.log(response)
                 const earthPhotos = response.data;
-                console.log('response', earthPhotos);
+                // console.log('response', earthPhotos);
                 setEarthPhotoData(earthPhotos);
             })
             .catch(err => 
@@ -22,7 +22,7 @@ function ContainerEarth() {
 
     return (
         <div>
-            <h1>Photos of Earth</h1>
+            <h1>NASA PHOTO OF THE DAY</h1>
             <CardEarth earthPhotoData={earthPhotoData} />
 
         </div>

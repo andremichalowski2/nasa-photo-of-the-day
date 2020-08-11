@@ -3,7 +3,6 @@ import React from 'react';
 function CardEarth({ earthPhotoData }) {
   return (
     <div>
-      <h1>Test Card CardEarth</h1>
       <img src={earthPhotoData.hdurl} alt='nasa space'/>
       <h1>{earthPhotoData.title}</h1>
       <h3>Photo by: {earthPhotoData.copyright}</h3>
